@@ -1,0 +1,20 @@
+name: 'Unit Test Action'
+description: 'Unit Test Action'
+author: 'SMU Chile'
+
+inputs:
+  node-version:
+    description: 'Node version 12, 14, 16'
+    required: true
+    default: '12'
+  registry-url:
+    description: 'Optional registry to set up for auth. Will set the registry in a project level'
+    required: true
+  cache-dependency-path:
+    required: true
+    description: ''
+    default: 'package-lock.json'
+
+runs:
+  using: 'node16'
+  main: 'dist/setup/index.js'

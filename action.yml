@@ -15,6 +15,6 @@ inputs:
     description: 'Sin descripcion por el momento'
     default: 'package-lock.json'
 
-# runs:
-#   using: 'node16'
-#   main: 'dist/setup/index.js'
+runs:
+  using: 'node16'
+  main: 'dist/setup/index.js'

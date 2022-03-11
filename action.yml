@@ -16,5 +16,5 @@ inputs:
     default: 'package-lock.json'
 
 runs:
-  using: 'node16'
-  main: 'dist/setup/index.js'
+  using: 'docker'
+  image: 'Dockerfile'

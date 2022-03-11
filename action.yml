@@ -12,7 +12,7 @@ inputs:
     required: true
   cache-dependency-path:
     required: true
-    description: ''
+    description: 'Sin descripcion por el moment'
     default: 'package-lock.json'
 
 runs:

@@ -9,12 +9,12 @@ inputs:
     default: '12'
   registry-url:
     description: 'Optional registry to set up for auth. Will set the registry in a project level'
-    required: true
+    required: false
   cache-dependency-path:
-    required: true
-    description: 'Sin descripcion por el moment'
+    required: false
+    description: 'Sin descripcion por el momento'
     default: 'package-lock.json'
 
-runs:
-  using: 'node16'
-  main: 'dist/setup/index.js'
+# runs:
+#   using: 'node16'
+#   main: 'dist/setup/index.js'

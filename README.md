@@ -19,7 +19,7 @@ Este action se usara para las pruebas unitarias
 ## Ejemplo de uso
 
 ```yaml
-uses: smu-chile/unit-test-action@v1.0.0
+uses: smu-chile/unit-test-action@v1.0.4
 with:
   node-version: '12'
   registry-url: 'https://npm.pkg.github.com/'

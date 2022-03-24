@@ -12,7 +12,7 @@ COPY . .
 # ADD https://github.com/actions/setup-node/archive/refs/tags/v3.0.0.tar.gz /tmp
 # RUN tar -xf /tmp/v${SETUP_NODE_VERSION}.tar.gz -C /tmp && cp -rf /tmp/setup-node-${SETUP_NODE_VERSION}/* .
 
-RUN npm install --ignore-scripts --silent -g
+RUN npm install -g
 RUN npm install --save-dev jest --silent -g
 RUN npm test
 

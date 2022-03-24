@@ -1,19 +1,19 @@
 name: 'Unit Test Action'
-description: 'Unit Test Action'
+description: 'Docker Action para realizar prubeas unitarias'
 author: 'SMU Chile'
 
-inputs:
-  node-version:
-    description: 'Node version 12, 14, 16'
-    required: true
-    default: '12'
-  registry-url:
-    description: 'Optional registry to set up for auth. Will set the registry in a project level'
-    required: false
-  cache-dependency-path:
-    required: false
-    description: 'Sin descripcion por el momento'
-    default: 'package-lock.json'
+# inputs:
+#   node-version:
+#     description: 'Node version 12, 14, 16'
+#     required: true
+#     default: '12'
+#   registry-url:
+#     description: 'Optional registry to set up for auth. Will set the registry in a project level'
+#     required: false
+#   cache-dependency-path:
+#     required: false
+#     description: 'Sin descripcion por el momento'
+#     default: 'package-lock.json'
 
 runs:
   using: 'docker'

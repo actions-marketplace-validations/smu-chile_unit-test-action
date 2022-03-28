@@ -3,6 +3,9 @@ description: 'Docker Action para realizar prubeas unitarias'
 author: 'SMU Chile'
 
 # inputs:
+#   repo-name:
+#     description: 'Github Repo Name'
+#     required: true
 #   node-version:
 #     description: 'Node version 12, 14, 16'
 #     required: true
